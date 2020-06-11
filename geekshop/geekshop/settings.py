@@ -66,6 +66,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'mainapp.context_processors.basket',
             ],
         },
     },
@@ -150,9 +151,7 @@ DOMAIN_NAME = "http://localhost:8000"
 
 # Full list of email settings:
 #   https://docs.djangoproject.com/en/2.2/ref/settings/#email
-# EMAIL_HOST = "smtp.mail.ru"
 EMAIL_HOST = "localhost"
-# EMAIL_PORT = "465"
 EMAIL_PORT = "25"
 
 EMAIL_USE_SSL = False
@@ -162,9 +161,7 @@ EMAIL_USE_SSL = False
 # EMAIL_HOST_USER = "django@geekshop.local"
 # EMAIL_HOST_PASSWORD = "geekshop"
 # For debugging: python -m smtpd -n -c DebuggingServer localhost:25
-# EMAIL_HOST_USER = "reanimator23@bk.ru"
 EMAIL_HOST_USER = None
-# EMAIL_HOST_PASSWORD = "Mike159753mike"
 EMAIL_HOST_PASSWORD = None
 
 # Email as files
