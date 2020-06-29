@@ -8,6 +8,8 @@ colorama==0.4.3
 cryptography==2.9.2
 defusedxml==0.7.0rc1
 Django==2.2
+django-debug-toolbar==2.2
+django-debug-toolbar-template-profiler==2.0.1
 future==0.18.2
 idna==2.8
 isort==4.3.21
