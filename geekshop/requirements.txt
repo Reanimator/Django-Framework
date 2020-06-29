@@ -10,7 +10,9 @@ defusedxml==0.7.0rc1
 Django==2.2
 django-debug-toolbar==2.2
 django-debug-toolbar-template-profiler==2.0.1
+django-extensions==3.0.0
 future==0.18.2
+graphviz==0.14
 idna==2.8
 isort==4.3.21
 lazy-object-proxy==1.4.3
@@ -23,10 +25,12 @@ Pillow==7.1.2
 protobuf==3.12.2
 pycodestyle==2.5.0
 pycparser==2.20
+pydotplus==2.0.2
 pygame==1.9.6
 PyInstaller==3.6
 PyJWT==1.7.1
 pylint==2.4.4
+pyparsing==2.4.7
 PyQt5==5.14.2
 PyQt5-sip==12.7.2
 pyTelegramBotAPI==3.6.7
